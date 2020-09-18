@@ -17,3 +17,5 @@ chmod +x cli
 
 ./cli api:call
 ```
+
+view requests at https://requestbin.com/r/enq3insv1k0js/1hgzny5XehFfZhKIRYsKiA2TXkC
