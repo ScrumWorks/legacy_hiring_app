@@ -1,0 +1,9 @@
+{
+    "require": {
+        "nette/di": "^3.0",
+        "symfony/console": "^5.1",
+        "guzzlehttp/guzzle": "^7.0",
+        "nette/bootstrap": "^3.0",
+        "tracy/tracy": "^2.7"
+    }
+}

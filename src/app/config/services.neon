@@ -1,0 +1,2 @@
+services:
+	- PDO(%db.dsn%, %db.user%, %db.password%)
