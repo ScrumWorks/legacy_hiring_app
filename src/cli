@@ -1,0 +1,15 @@
+#!/usr/bin/env php
+<?php
+
+$configurator = require __DIR__ . '/app/bootstrap.php';
+
+$configurator->addConfig(__DIR__ . '/app/config/console.neon');
+
+$container = $configurator->createContainer();
+
+$input = new Symfony\Component\Console\Input\ArgvInput($argv);
+
+if (PHP_SAPI === 'cli') {
+	$console = $container->getByType(\Symfony\Component\Console\Application::class);
+	$console->run($input);
+}

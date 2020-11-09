@@ -1,0 +1,10 @@
+services:
+    callAPI: Console\Command\CallAPI
+
+    - 
+        factory: Symfony\Component\Console\Application
+        setup:
+            - add(@callAPI)
+
+
+    

@@ -1,0 +1,6 @@
+parameters:
+
+    db:
+        dsn: "mysql:host=mysql;dbname=legacy_app"
+        user: "root"
+        password: "root"
