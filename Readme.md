@@ -9,7 +9,7 @@ php -f callApiCommannd.php
 ```
 
 ## Your goal
-Refactor this code to follow nowadays best practices. You can use any PHP framework or libs you like. When you are done, please us a link to your repository to <it@scrumworks.cz>.
+Refactor this code to follow nowadays best practices. You can use any PHP framework or libs you like. When you are done, please us a link to your repository to <jerry@amateri.com>.
 
 ## Notes
 - This code is just an example. We do not have similar code in our codebase ;-)
